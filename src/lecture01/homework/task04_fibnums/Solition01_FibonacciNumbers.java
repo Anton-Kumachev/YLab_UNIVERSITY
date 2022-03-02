@@ -9,7 +9,7 @@ public class Solition01_FibonacciNumbers {
     public static void main(String[] args) {
         System.out.println(fib(10));
     }
-    //простой метод (очень медленно после 50-го чилса)
+    //простой метод (очень медленно после 50-го числа)
     private static long fib(int n) {
         if (n <= 1) return n;
 
