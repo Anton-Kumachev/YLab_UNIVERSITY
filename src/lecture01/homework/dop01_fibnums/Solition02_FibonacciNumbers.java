@@ -1,4 +1,4 @@
-package lecture01.homework.task04_fibnums;
+package lecture01.homework.dop01_fibnums;
 
 //Алгоритм поиска числа Фибоначчи. Цикл + Массив.
 // n: 0, 1, 2, 3, 4, 5,...
