@@ -1,31 +1,20 @@
 package lecture03.task06;
-//package com.javarush.task.task05.task0501;
+//package com.javarush.task.task06.task0601;
 
 /*
-1. Создать класс Cat
-Создать класс Cat. У кота должно быть имя (name, String),
-возраст (age, int), вес (weight, int), сила (strength, int).
+1. Метод finalize класса Cat
+В классе Cat создать метод protected void finalize() throws Throwable
 */
 
-
-public class Task06Solution01 { //Cat
+public class Task06Solution01 {
+    public class Cat {
         //напишите тут ваш код
-        String name;
-        int age;
-        int weight;
-        int strength;
+        protected void finalize() throws Throwable {
 
+        }
 
         public static void main(String[] args) {
-            Task06Solution01 cat = new Task06Solution01(); //Cat
-            cat.name = "Barsik";
-            cat.age = 3;
-            cat.weight = 5;
-            cat.strength = 40;
 
-            System.out.println("Имя кота: " + cat.name);
-            System.out.println("Возраст: " + cat.age);
-            System.out.println("Вес: " + cat.weight);
-            System.out.println("Длина: " + cat.strength);
         }
     }
+}
